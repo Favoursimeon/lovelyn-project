@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(233, 72, 174);
+}
+
+.anim {
+    text-shadow: 6px 6px 6px rgb(212, 155, 240), 2px 2px 1px rgb(230, 0, 255);
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 5.5rem;
+}
+
+.anim {
+    /*  The animation code */
+    @keyframes example {
+        from {
+            background-color: red;
+        }
+        to {
+            background-color: yellow;
+        }
+    }
+    /* The element to apply the animation to */
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.nav {
+    background-color: rgb(243, 23, 122);
+    padding: 24px;
+    font-size: large;
+    text-align: right;
+    border: 10px;
+}
+
+.be {
+    text-align: right;
+    forced-color-adjust: rgb(73, 73, 118);
+}
+
+h5 {
+    text-align: center;
+    font-size: large;
+}
+
+.hi {
+    text-align: center;
+    font-size: large;
+}
+
+label {
+    padding-top: 24px;
+    border-color: lightgray;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    border: 2px solid #000;
+    margin: 0 0 1em 0;
+    padding: 3px;
+    width: 20%;
+    text-align: center;
+}
+
+.nav-wraper {
+    background-color: rgb(243, 23, 122);
+    padding: 24px;
+    font-size: large;
+    text-align: right;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body1 {
+    background-color: brown;
+    background-image: linear-gradient();
+    font-family: "poppies", sans-serif;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quize-container {
+    background-color: brown;
+    box-shadow: 2px, 2px;
+    max-width: 95;
+    border-radius: 10px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.quize-header {
+    padding: 4rem;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.ami {
+    background-color: rgb(243, 23, 122);
+    padding: 24px;
+    font-size: large;
+    text-align: right;
+}
